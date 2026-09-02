@@ -1,0 +1,12 @@
+# LIS 4370 - Module 2: Assignment Importing Data and Function Evaluation in R
+
+myMean <- function(x)  {
+
+    sum(x) / length(x)
+
+}
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+
+myMean(assignment2)
+# Result comes back at 19.25 
